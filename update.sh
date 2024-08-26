@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# /etc/crontab
+# 0 9 * * * [USER] /opt/minecraft/update.sh"
+#
 curl_path="/usr/bin/curl"
 minecraft_dir="/opt/minecraft"
 plugin_dir="$minecraft_dir/data/plugins"
